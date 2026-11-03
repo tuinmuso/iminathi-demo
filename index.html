@@ -1,3 +1,10 @@
+<!doctype html>
+<html lang="af"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f4f3ef">
+<meta property="og:title" content="Iminathi Veilingkatalogus">
+<meta property="og:description" content="Iminathi Ranch 2de Produksieveiling, 28 Nov 2026, Silverlakes. Demo van die katalogus-app.">
 <title>Iminathi Veilingkatalogus</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -180,6 +187,7 @@ textarea,input[type=text]{width:100%;border:1px solid var(--line);background:var
 .secthead h2{font-size:22px;font-weight:600}
 .secthead span{font-size:13px;color:var(--muted)}
 </style>
+</head><body>
 
 <div class="wrap">
   <header class="top">
@@ -395,3 +403,5 @@ document.addEventListener("input",e=>{if(e.target.id&&e.target.id.startsWith("no
 setInterval(()=>{const b=$("#bid");if(!b)return;const v=parseInt(b.textContent.replace(/\D/g,""));if(v<260000)b.textContent="R"+(v+5000).toLocaleString("en-ZA").replace(/,/g," ")},2500);
 render();
 </script>
+
+</body></html>
